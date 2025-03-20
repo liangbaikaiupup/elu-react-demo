@@ -3,9 +3,8 @@ import { Button, Form, Input } from 'antd'
 import { apiReqs } from '@/api'
 import { useNavigate } from 'react-router-dom'
 import { KeyOutlined, UserOutlined } from '@ant-design/icons'
-import imgLogo from '@/common/images/logo.png'
+import imgLogo from '@/common/images/logo.jpg'
 import imgCover from './cover.svg'
-// import './login.styl'
 import './login.scss'
 
 function Login() {
@@ -40,7 +39,7 @@ function Login() {
                     <img src={imgLogo} alt="" className="img-logo" />
                     <h2>Vite React APP</h2>
                     <img src={imgCover} alt="" className="img-cover" />
-                    {/* <div className="m-footer">公众号：卧梅又闻花</div> */}
+                    
                 </div>
                 <div className="pannel-con">
                     <h3>Welcome!</h3>

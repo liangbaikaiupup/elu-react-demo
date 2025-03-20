@@ -17,11 +17,7 @@ function Home() {
                         任何自行写的样式颜色，都不会换肤。如需换肤，使用Antd的useToken获取当前主题token中对应的颜色值进行换肤。
                     </p>
                 </Card>
-                <Card title="版权声明">
-                    <p>公众号：卧梅又闻花</p>
-                    <p>掘金：Mr_兔子先生</p>
-                    <p>知乎：兔子先生</p>
-                </Card>
+                
             </section>
         </>
     )

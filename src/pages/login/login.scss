@@ -31,6 +31,9 @@
         display: block;
         margin: 50px auto 20px;
         height: 60px;
+        // 适配其他图片
+        border-radius: 50%;
+        width: 60px;
       }
 
       h2 {
